@@ -15,3 +15,5 @@ Tutorial: https://dev.to/adrai/the-progressive-guide-to-jquery-internationalizat
 ```sh
 yarn; yarn dev;
 ```
+
+![simple demo using JSON](simple-demo-using-json.gif)

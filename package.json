@@ -2,6 +2,8 @@
   "name": "learning-template",
   "license": "MIT",
   "scripts": {
+    "dev": "parcel index.html --open",
+    "start": "yarn dev",
     "lint": "prettier --write *.{js,css,html,scss,json,md,ts,tsx}"
   },
   "dependencies": {},
@@ -17,8 +19,7 @@
   },
   "lint-staged": {
     "**/*.js": [
-      "jest --bail --findRelatedTests",
-      "es-check es5 './**/*.js' --not=node_modules"
+      "jest --bail --findRelatedTests"
     ],
     "*.{js,css,html,scss,json,md,ts,tsx}": "prettier --write"
   }
